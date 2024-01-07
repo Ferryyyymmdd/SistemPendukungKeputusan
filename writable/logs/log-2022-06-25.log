@@ -1,0 +1,30 @@
+CRITICAL - 2022-06-25 17:11:57 --> Undefined property: App\Controllers\Proses::$ses
+in APPPATH\Controllers\Proses.php on line 94.
+ 1 APPPATH\Controllers\Proses.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Proses::$ses', 'APPPATH\\Controllers\\Proses.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Proses->valid('p')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-25 17:12:12 --> Undefined property: App\Controllers\Proses::$ses
+in APPPATH\Controllers\Proses.php on line 94.
+ 1 APPPATH\Controllers\Proses.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Proses::$ses', 'APPPATH\\Controllers\\Proses.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Proses->valid('p')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-25 18:32:56 --> Error connecting to the database: Unknown database 'db_sistempendukungkeputusan'
+CRITICAL - 2022-06-25 18:32:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_sistempendukungkeputusan'
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kriteria`
+WHERE `aktif` = :aktif:', [...], false)
+ 3 APPPATH\Controllers\Hal.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Hal->hitung()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hal))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

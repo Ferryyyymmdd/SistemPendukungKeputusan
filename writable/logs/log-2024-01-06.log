@@ -1,0 +1,59 @@
+ERROR - 2024-01-06 14:45:30 --> Table 'db_sistempendukungkeputusan.app_set' doesn't exist
+CRITICAL - 2024-01-06 14:45:30 --> Table 'db_sistempendukungkeputusan.app_set' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `app_set`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `app_set`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `app_set`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `app_set`', [], false)
+ 5 APPPATH\Controllers\BaseController.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(859): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-06 21:37:49 --> Division by zero
+in APPPATH\Controllers\Form_bantu.php on line 73.
+ 1 APPPATH\Controllers\Form_bantu.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Controllers\\Form_bantu.php', 73, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_bantu->loadalt('4')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_bantu))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-06 21:37:52 --> Division by zero
+in APPPATH\Views\hitung.php on line 226.
+ 1 APPPATH\Views\hitung.php(226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Views\\hitung.php', 226, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hitung.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('hitung', [], true)
+ 5 APPPATH\Controllers\Hal.php(138): view('hitung', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Hal->hitung()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hal))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-06 21:38:24 --> Division by zero
+in APPPATH\Views\hitung.php on line 226.
+ 1 APPPATH\Views\hitung.php(226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Views\\hitung.php', 226, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hitung.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('hitung', [], true)
+ 5 APPPATH\Controllers\Hal.php(138): view('hitung', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Hal->hitung()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hal))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-06 21:38:50 --> Division by zero
+in APPPATH\Controllers\Form_bantu.php on line 73.
+ 1 APPPATH\Controllers\Form_bantu.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Controllers\\Form_bantu.php', 73, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_bantu->loadalt('4')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_bantu))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-06 21:38:51 --> Division by zero
+in APPPATH\Controllers\Form_bantu.php on line 73.
+ 1 APPPATH\Controllers\Form_bantu.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Controllers\\Form_bantu.php', 73, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_bantu->loadalt('4')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_bantu))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

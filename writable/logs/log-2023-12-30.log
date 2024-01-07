@@ -1,0 +1,44 @@
+CRITICAL - 2023-12-30 15:43:13 --> Undefined variable: n
+in APPPATH\Views\hitung.php on line 83.
+ 1 APPPATH\Views\hitung.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: n', 'APPPATH\\Views\\hitung.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hitung.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('hitung', [], true)
+ 5 APPPATH\Controllers\Hal.php(138): view('hitung', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Hal->hitung()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hal))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-30 15:46:32 --> Division by zero
+in APPPATH\Views\hitung.php on line 89.
+ 1 APPPATH\Views\hitung.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Views\\hitung.php', 89, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hitung.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('hitung', [], true)
+ 5 APPPATH\Controllers\Hal.php(138): view('hitung', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Hal->hitung()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hal))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-30 22:24:29 --> Trying to get property 'nama_kriteria' of non-object
+in APPPATH\Views\tabel.php on line 53.
+ 1 APPPATH\Views\tabel.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kriteria\' of non-object', 'APPPATH\\Views\\tabel.php', 53, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tabel', [], true)
+ 5 APPPATH\Controllers\Hal.php(43): view('tabel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Hal->mt('@V_fx1_mVZS=')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hal))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-30 22:24:46 --> Trying to get property 'nama_kriteria' of non-object
+in APPPATH\Views\tabel.php on line 53.
+ 1 APPPATH\Views\tabel.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_kriteria\' of non-object', 'APPPATH\\Views\\tabel.php', 53, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('tabel', [], true)
+ 5 APPPATH\Controllers\Hal.php(43): view('tabel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Hal->mt('@V_fx1_mVZS=')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hal))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
