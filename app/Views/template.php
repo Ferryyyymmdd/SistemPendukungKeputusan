@@ -192,11 +192,8 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2020-<?=date('Y')?> <a href="https://youtube.com/channel/UCyONSVq9Pm84BnIL--niNPA">Sistem Pendukung Keputusan</a>.</strong>
-    All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
-      Page rendered in <strong>{elapsed_time}</strong> seconds. (<?=round((memory_get_usage()/1024)/1024)?> MB)
-    </div>
+    <strong>Toko Bangunan Mitra Usaha 2</strong>
+     
   </footer>
 </div>
 <!-- ./wrapper -->
